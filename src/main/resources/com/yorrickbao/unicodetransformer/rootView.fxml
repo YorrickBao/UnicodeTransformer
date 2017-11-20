@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="160.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.yorrickbao.unicodetransformer.RootView">
+   <children>
+      <TextField fx:id="textField" layoutX="65.0" layoutY="51.0" onAction="#textFieldOnChanged" prefHeight="27.0" prefWidth="443.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="50.0" />
+      <TextField fx:id="textField2" layoutX="65.0" layoutY="116.0" onAction="#textField2OnChanged" prefHeight="27.0" prefWidth="443.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0" />
+      <Label layoutX="20.0" layoutY="33.0" text="中文转unicode" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="33.0" />
+      <Label layoutX="20.0" layoutY="83.0" text="unicode转字符" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="83.0" />
+   </children>
+</AnchorPane>
